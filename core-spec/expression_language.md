@@ -344,6 +344,8 @@ Supported date parts for `EXTRACT` and `DATE_PART`:
 - `DAYOFWEEK`, `DAYOFYEAR`  
 - `HOUR`, `MINUTE`, `SECOND`, `MILLISECOND`
 
+`DAYOFWEEK` is the ISO 8601 day number: Monday is `1` and Sunday is `7`, independent of any session setting.
+
 ### Date Truncation (REQUIRED)
 
 | Function | Syntax | Description |
