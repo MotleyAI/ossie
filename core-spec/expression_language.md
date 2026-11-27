@@ -344,6 +344,9 @@ Supported date parts for `EXTRACT` and `DATE_PART`:
 - `DAYOFWEEK`, `DAYOFYEAR`  
 - `HOUR`, `MINUTE`, `SECOND`, `MILLISECOND`
 
+`MILLISECOND` is the millisecond component of the time: the fractional second truncated to
+whole milliseconds, from 0 to 999.
+
 ### Date Truncation (REQUIRED)
 
 | Function | Syntax | Description |
